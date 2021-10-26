@@ -9,12 +9,12 @@ it manually "MowerApplication"
 
 # Environment
 
-you can configure application via env variables
+you can configure application via env variables (file: application.properties)
 
 Variable | Description |Default value |
 --- | --- | --- |
 MOWER_CONFIG_PATH | Config file's path |files/config.txt |
 MOWER_ELEMENTS_SEPARATOR | Separator between elements for max point/position |SPACE|
-MIN_X | min x position |0|
-MIN_Y |min Y position  |0|
-AUTO_START | Load and execute mowers directly after application start |true|
+MOWER_MIN_X | min x position |0|
+MOWER_MIN_Y |min Y position  |0|
+MOWER_AUTO_START | Load and execute mowers directly after application start |true|
